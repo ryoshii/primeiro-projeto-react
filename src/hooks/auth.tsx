@@ -7,7 +7,7 @@ interface SignInCredentials {
 }
 
 interface AuthState {
-  toke: string;
+  token: string;
   user: object;
 }
 
