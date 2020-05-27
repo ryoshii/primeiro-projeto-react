@@ -13,8 +13,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  place-content: center;
+  justify-content: center;
 
   width: 100%;
   max-width: 700px;
@@ -39,7 +38,7 @@ export const AnimationContainer = styled.div`
   animation: ${appearFromRight} 1s;
 
   form {
-    margin: 60px 0;
+    margin: 80px 0;
     width: 340px;
     text-align: center;
 
